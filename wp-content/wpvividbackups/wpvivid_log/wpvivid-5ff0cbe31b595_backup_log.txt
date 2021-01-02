@@ -1,0 +1,83 @@
+Log created: 2021-01-02 19:39:15
+Type: backup
+[2021-01-02 19:39:17][notice]Start backing up.
+[2021-01-02 19:39:17][notice]server info fcgi:Off max execution time: 900 wp version:5.6 php version:7.3.21 db version:5.7.31 php ini:safe_mode: memory_limit:256M memory_get_usage:6.02 MB memory_get_peak_usage:6.10 MB extensions:PDO enabled curl enabled zlib enabled   is_multisite:0
+[2021-01-02 19:39:17][notice]Prepare to backup backup_db files.
+[2021-01-02 19:39:17][notice]Start exporting database.
+[2021-01-02 19:39:17][notice]max_allowed_packet less than 32M :1.00 MB
+[2021-01-02 19:39:17][notice]Preparing to dump table wp_commentmeta
+[2021-01-02 19:39:17][notice]Preparing to dump table wp_comments
+[2021-01-02 19:39:17][notice]Preparing to dump table wp_links
+[2021-01-02 19:39:17][notice]Preparing to dump table wp_options
+[2021-01-02 19:39:17][notice]Preparing to dump table wp_postmeta
+[2021-01-02 19:39:17][notice]Preparing to dump table wp_posts
+[2021-01-02 19:39:17][notice]Preparing to dump table wp_simply_static_pages
+[2021-01-02 19:39:17][notice]Preparing to dump table wp_term_relationships
+[2021-01-02 19:39:17][notice]Preparing to dump table wp_term_taxonomy
+[2021-01-02 19:39:17][notice]Preparing to dump table wp_termmeta
+[2021-01-02 19:39:17][notice]Preparing to dump table wp_terms
+[2021-01-02 19:39:17][notice]Preparing to dump table wp_trp_dictionary_en_us_de_de
+[2021-01-02 19:39:17][notice]Preparing to dump table wp_trp_gettext_de_de
+[2021-01-02 19:39:17][notice]Preparing to dump table wp_trp_gettext_en_us
+[2021-01-02 19:39:17][notice]Preparing to dump table wp_trp_original_meta
+[2021-01-02 19:39:17][notice]Preparing to dump table wp_trp_original_strings
+[2021-01-02 19:39:17][notice]Preparing to dump table wp_usermeta
+[2021-01-02 19:39:17][notice]Preparing to dump table wp_users
+[2021-01-02 19:39:17][notice]Preparing to dump table wp_wpvivid_scan_result
+[2021-01-02 19:39:17][notice]Preparing to dump table wp_wpvivid_unused_uploads_files
+[2021-01-02 19:39:17][notice]Exporting database finished.
+[2021-01-02 19:39:17][notice]Start compressing backup_db
+[2021-01-02 19:39:17][notice]Prepare to zip files. file: localhost_Billium_wpvivid-5ff0cbe31b595_2021-01-02-19-39_backup_db.zip
+[2021-01-02 19:39:17][notice]Adding zip files completed.localhost_Billium_wpvivid-5ff0cbe31b595_2021-01-02-19-39_backup_db.zip, filesize: 2.26 MB
+[2021-01-02 19:39:17][notice]Compressing backup_db completed
+[2021-01-02 19:39:17][notice]Backing up backup_db completed.
+[2021-01-02 19:39:17][notice]Prepare to backup backup_themes files.
+[2021-01-02 19:39:17][notice]File number: 62
+[2021-01-02 19:39:17][notice]Start compressing backup_themes
+[2021-01-02 19:39:17][notice]Prepare to zip files. file: localhost_Billium_wpvivid-5ff0cbe31b595_2021-01-02-19-39_backup_themes.zip
+[2021-01-02 19:39:18][notice]Adding zip files completed.localhost_Billium_wpvivid-5ff0cbe31b595_2021-01-02-19-39_backup_themes.zip, filesize: 1.88 MB
+[2021-01-02 19:39:18][notice]Compressing backup_themes completed
+[2021-01-02 19:39:18][notice]Backing up backup_themes completed.
+[2021-01-02 19:39:18][notice]Prepare to backup backup_plugin files.
+[2021-01-02 19:39:18][notice]File number: 3136
+[2021-01-02 19:39:18][notice]Start compressing backup_plugin
+[2021-01-02 19:39:20][notice]Prepare to zip files. file: localhost_Billium_wpvivid-5ff0cbe31b595_2021-01-02-19-39_backup_plugin.zip
+[2021-01-02 19:39:30][notice]Adding zip files completed.localhost_Billium_wpvivid-5ff0cbe31b595_2021-01-02-19-39_backup_plugin.zip, filesize: 57.66 MB
+[2021-01-02 19:39:30][notice]Compressing backup_plugin completed
+[2021-01-02 19:39:30][notice]Backing up backup_plugin completed.
+[2021-01-02 19:39:30][notice]Prepare to backup backup_uploads files.
+[2021-01-02 19:39:30][notice]File number: 235
+[2021-01-02 19:39:30][notice]Start compressing backup_uploads
+[2021-01-02 19:39:30][notice]Prepare to zip files. file: localhost_Billium_wpvivid-5ff0cbe31b595_2021-01-02-19-39_backup_uploads.zip
+[2021-01-02 19:39:31][notice]Adding zip files completed.localhost_Billium_wpvivid-5ff0cbe31b595_2021-01-02-19-39_backup_uploads.zip, filesize: 15.43 MB
+[2021-01-02 19:39:31][notice]Compressing backup_uploads completed
+[2021-01-02 19:39:31][notice]Backing up backup_uploads completed.
+[2021-01-02 19:39:31][notice]Prepare to backup backup_content files.
+[2021-01-02 19:39:31][notice]File number: 69
+[2021-01-02 19:39:31][notice]Start compressing backup_content
+[2021-01-02 19:39:31][notice]Prepare to zip files. file: localhost_Billium_wpvivid-5ff0cbe31b595_2021-01-02-19-39_backup_content.zip
+[2021-01-02 19:39:32][notice]Adding zip files completed.localhost_Billium_wpvivid-5ff0cbe31b595_2021-01-02-19-39_backup_content.zip, filesize: 2.87 MB
+[2021-01-02 19:39:32][notice]Compressing backup_content completed
+[2021-01-02 19:39:32][notice]Backing up backup_content completed.
+[2021-01-02 19:39:32][notice]Prepare to backup backup_core files.
+[2021-01-02 19:39:32][notice]File number: 1807
+[2021-01-02 19:39:32][notice]Start compressing backup_core
+[2021-01-02 19:39:33][notice]Prepare to zip files. file: localhost_Billium_wpvivid-5ff0cbe31b595_2021-01-02-19-39_backup_core.zip
+[2021-01-02 19:39:43][notice]Adding zip files completed.localhost_Billium_wpvivid-5ff0cbe31b595_2021-01-02-19-39_backup_core.zip, filesize: 44.54 MB
+[2021-01-02 19:39:43][notice]Compressing backup_core completed
+[2021-01-02 19:39:43][notice]Backing up backup_core completed.
+[2021-01-02 19:39:43][notice]Prepare to backup backup_merge files.
+[2021-01-02 19:39:43][notice]File number: 6
+[2021-01-02 19:39:43][notice]Start compressing backup_merge
+[2021-01-02 19:39:43][notice]Prepare to zip files. file: localhost_Billium_wpvivid-5ff0cbe31b595_2021-01-02-19-39_backup_all.zip
+[2021-01-02 19:39:48][notice]Adding zip files completed.localhost_Billium_wpvivid-5ff0cbe31b595_2021-01-02-19-39_backup_all.zip, filesize: 49.56 MB
+[2021-01-02 19:39:48][notice]Cleaned up file, filename: C:\wamp64\www\Billium/wp-content\wpvividbackups\localhost_Billium_wpvivid-5ff0cbe31b595_2021-01-02-19-39_backup_plugin.zip
+[2021-01-02 19:39:48][notice]Cleaned up file, filename: C:\wamp64\www\Billium/wp-content\wpvividbackups\localhost_Billium_wpvivid-5ff0cbe31b595_2021-01-02-19-39_backup_core.zip
+[2021-01-02 19:39:48][notice]Cleaned up file, filename: C:\wamp64\www\Billium/wp-content\wpvividbackups\localhost_Billium_wpvivid-5ff0cbe31b595_2021-01-02-19-39_backup_uploads.zip
+[2021-01-02 19:39:48][notice]Cleaned up file, filename: C:\wamp64\www\Billium/wp-content\wpvividbackups\localhost_Billium_wpvivid-5ff0cbe31b595_2021-01-02-19-39_backup_content.zip
+[2021-01-02 19:39:48][notice]Cleaned up file, filename: C:\wamp64\www\Billium/wp-content\wpvividbackups\localhost_Billium_wpvivid-5ff0cbe31b595_2021-01-02-19-39_backup_db.zip
+[2021-01-02 19:39:48][notice]Cleaned up file, filename: C:\wamp64\www\Billium/wp-content\wpvividbackups\localhost_Billium_wpvivid-5ff0cbe31b595_2021-01-02-19-39_backup_themes.zip
+[2021-01-02 19:39:48][notice]Compressing backup_merge completed
+[2021-01-02 19:39:48][notice]Backing up backup_merge completed.
+[2021-01-02 19:39:48][notice]Backup completed.
+[2021-01-02 19:39:48][notice]Backup succeeded.
